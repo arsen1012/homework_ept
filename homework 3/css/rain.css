@@ -1,0 +1,203 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+padding: 0px;
+margin: 0px;
+font-size: 16px;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+p{
+    line-height: 1.65em;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    background: rgb(74,182,248);
+background: -moz-linear-gradient(90deg, rgba(74,182,248,1) 0%, rgba(65,164,234,1) 45%, rgba(0,212,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(74,182,248,1) 0%, rgba(65,164,234,1) 45%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgba(74,182,248,1) 0%, rgba(65,164,234,1) 45%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4ab6f8",endColorstr="#00d4ff",GradientType=1);
+padding-top: 62px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: 37px;
+    font-weight: 700;
+    width: 565;
+}
+.title span {
+    font-size: 59px;
+}
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    width: 409px;
+    padding-bottom: 37px;
+}
+.btn {
+    background: #ffd429;
+    text-decoration: none;
+    display: block;
+    width: 222px;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #000;
+    transition: all 0.5 ease;
+}
+.btn:hover {
+    background: #edc31e;
+}
+.learn {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 110px;
+}
+.section-title {
+    font-size: 30px;
+
+}
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+.skill {
+    width: 289px;
+    background: url(../img/icons8-time-machine-96.png) no-repeat center top ;
+    padding-top: 100px;
+    margin-top: 60px;
+}
+.skill-titel {
+    font-size: 19px;
+    font-weight: 900;
+}
+.skill-text {    
+    font-size: 15px;
+}
+.skill-free {
+    background: url(../img/icons8-beach-96.png) no-repeat center top; 
+    width: 280px;
+}
+.skill-changer {
+    background: url(../img/icons8-launch-96.png) no-repeat center top; 
+    width: 280px;
+}
+.mail {
+    background: #ecf3f8;
+    padding-top: 100px;
+    padding-bottom: 102px;
+
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 340px;
+   margin: 0 auto; 
+}
+.input {
+    border-radius: 3px;
+    border: 1px solid #bbbbbb;
+    width: 100%;
+    height: 48px;
+    padding-left: 25px;
+    margin: 0 auto 15px;
+    display: block;
+
+}
+.btn {
+border: 0;
+display: block;
+width: 100%;
+}
+.footer{
+    background: #164d7a; 
+    padding:  60px 0px 60px 0px;
+
+}
+.credits {
+    padding:  0;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+    .travel {
+        width: 500px ;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+    .wrapper{
+        flex-direction: column;
+    }
+.offer {
+    padding-top: 100px;
+    width: auto;
+}
+.intro {
+    width: auto;
+    padding-bottom: 50px;
+}
+.skills {
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+    .travel {
+        width: 315px;
+    }
+    .form {
+        width: auto;
+    }
+}
